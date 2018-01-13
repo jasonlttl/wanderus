@@ -3,7 +3,6 @@
 ###
 
 # Ignore files created for local development
-/web/sites/default/settings.php
 /web/sites/default/config
 /web/sites/default/sqlite.*
 /config/README.txt
