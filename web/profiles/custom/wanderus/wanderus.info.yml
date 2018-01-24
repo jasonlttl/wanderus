@@ -1,0 +1,33 @@
+name: WanderUs
+type: profile
+description: 'Installs a website cataloging parks'
+version: VERSION
+core: 8.x
+dependencies:
+  - node
+  - block
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - shortcut
+  - toolbar
+  - file
+  - rdf
+  - views
+  - automated_cron
+themes:
+  - bartik
+  - seven
