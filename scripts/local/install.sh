@@ -10,7 +10,7 @@ echo "Backing up sites/default/settings.php"
 cp sites/default/settings.php sites/default/settings.php.bak
 
 echo "Installing Drupal w\SQLite"
-drush --yes site-install wanderus --db-url=sqlite://sites/default/sqlite.db
+drush --yes site-install config_installer --db-url=sqlite://sites/default/sqlite.db
 
 chmod 755 sites/default
 chmod 755 sites/default/settings.php
