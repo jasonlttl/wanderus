@@ -1,0 +1,18 @@
+uuid: 38a9f1f1-203c-4a50-b581-bb3712709bc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.park
+id: node.park.title
+field_name: title
+entity_type: node
+bundle: park
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

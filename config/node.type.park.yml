@@ -1,0 +1,11 @@
+uuid: e609533b-0b57-4ec5-b2db-111fb111d8ec
+langcode: en
+status: true
+dependencies: {  }
+name: Park
+type: park
+description: 'A natural setting open to the public'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

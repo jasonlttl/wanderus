@@ -1,0 +1,23 @@
+uuid: b655ee84-9a0a-4c95-8a51-8070b31994aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.website
+    - node.type.park
+  module:
+    - link
+id: node.park.website
+field_name: website
+entity_type: node
+bundle: park
+label: Website
+description: 'Official website for the park if an external website exists.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

@@ -1,0 +1,22 @@
+uuid: eef3baa5-3002-42bf-8231-75b65fe98ab5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.park
+  module:
+    - text
+id: node.park.body
+field_name: body
+entity_type: node
+bundle: park
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
