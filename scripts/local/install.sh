@@ -22,9 +22,8 @@ mv sites/default/settings.php.bak sites/default/settings.php
 chmod 555 sites/default
 chmod 555 sites/default/settings.php
 
-echo "Installing everything and the kitchen sink"
-drush en devel devel_generate field_ui help views_ui --yes
-
+echo "Importing configuration"
+drush cim -y
 
 echo "Starting php server"
 cd ..
